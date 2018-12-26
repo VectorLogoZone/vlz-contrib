@@ -10,6 +10,7 @@ These guidelines apply to all images except the `-official` images.
  * No taglines
  * Transparent background
  * Dark foreground, so it looks good on a white/light background (except `-tile`).
+ * Convert text to curves: you cannot depend people already having a specific font installed. 
 
 ## Naming guidelines
 
@@ -28,10 +29,11 @@ Required:
  * **Icon** (`-icon`) - a 64x64 with just the logo (i.e. no name) on a transparent (white) background, with no padding other than to make it square
  
 Optional:
- * **Tile** (`-tile`) - a 512x512 image with a simple logo on a colored background.  
+ * **Tile** (`-tile`) - a 512x512 image with a simple logo on a colored background.  The guidelines (as well as many of the images) come from  [https://github.com/edent/supertinyicons](SuperTinyIcons), though 
+   I am more strict about a non-white background, and less strict about the 1K size limit.
  * **Image** (`-image`) - a 64 high image: the same as the icon, but resized so that it is 64 high with no padding
- * **Horizontal** (`-horizontal`) - 
- * **Wordmark** (`-wordmark`) - 60 high, just the name, in black, with padding
+ * **Horizontal** (`-horizontal`) - 60 high, similar to the `-ar21`, but wider so really long names can be next to the logo
+ * **Wordmark** (`-wordmark`) - 60 high, just the name in the correct font, in black, with padding
  * **Official** (`-official`) - The official logo, unchanged except cropped and resized to a maximum of 256 height or width.
  
 Other
@@ -50,7 +52,7 @@ Other
  * title - (required) project/company name (as short as possible)
  * website - (required) project/company website
 
-## Metadata Links
+## Social Media Links
 
 Links to this project/company on various websites.  I'm generally interested in sites where there should be a publicly accessible logo.
 
@@ -67,5 +69,35 @@ Links to this project/company on various websites.  I'm generally interested in 
  * wikipedia
  * youtube
 
+ 
+## Other Social Media Links
+
+These are some less common social media sites that some projects/companies use.  Feel free to add any that are linked from the main website.
+
+ * discord 
+ * discourse 
+ * dockerhub 
+ * dribbble 
+ * flickr 
+ * gitter 
+ * glassdoor 
+ * medium 
+ * meetup 
+ * slack 
+ * slideshare 
+ * soundcloud 
+ * stackexchange 
+ * stackoverflow 
+ * vimeo 
+ * vine 
+ * weibo 
+ * xing
+
 ## Tools
+
+Font identification:
+ * [WhatTheFont](http://www.myfonts.com/WhatTheFont/) - upload a sample image.  They also have an active [forum](http://www.myfonts.com/WhatTheFont/forum/) where fonts experts will help.</p>
+ * [IdentiFont](http://www.identifont.com/) - answer a series of questions about specific characters.  Be sure to use the character filter.</p>
+ * [WhatFont bookmarklet](http://www.chengyinliu.com/whatfont.html) - really nice and easy way to see the fonts used on an HTML page</p>
+
  
