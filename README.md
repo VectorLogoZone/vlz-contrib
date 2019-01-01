@@ -1,5 +1,11 @@
-# Contributing to VectorLogoZone [<img alt="VLZ Logo" src="https://www.vectorlogo.zone/logos/vectorlogozone/vectorlogozone-tile.svg" height="96" align="right"/>](https://www.vectorlogo.zone)
+# Contributing to [VectorLogoZone](https://www.vectorlogo.zone/) [<img alt="VLZ Logo" src="https://www.vectorlogo.zone/logos/vectorlogozone/vectorlogozone-tile.svg" height="96" align="right"/>](https://www.vectorlogo.zone)
 
+[![# of contributors](https://img.shields.io/github/contributors/VectorLogoZone/vectorlogozone.svg?colorB=green)](https://github.com/VectorLogoZone/vectorlogozone/graphs/contributors)
+[![last commit](https://img.shields.io/github/last-commit/VectorLogoZone/vectorlogozone.svg)](https://github.com/VectorLogoZone/vectorlogozone/commits/gh-pages)
+[![open issues](https://img.shields.io/github/issues-raw/VectorLogoZone/vectorlogozone.svg)](https://github.com/VectorLogoZone/vectorlogozone/issues)
+[![open PRs](https://img.shields.io/github/issues-pr-raw/VectorLogoZone/vectorlogozone.svg)](https://github.com/VectorLogoZone/vectorlogozone/pulls)
+
+One of the main reasons for [VectorLogoZone](https://www.vectorlogo.zone/) is consistency: the logos should look great when they are all on the same page.  Please follow these guidelines when you make the images.
 
 ## General SVG Guidelines
 
@@ -10,7 +16,9 @@ These guidelines apply to all images except the `-official` images.
  * No taglines
  * Transparent background
  * Dark foreground, so it looks good on a white/light background (except `-tile`).
- * Convert text to curves: you cannot depend people already having a specific font installed. 
+ * Convert text to curves: you cannot depend people already having a specific font installed.
+ * No embedded raster data (PNG or JPEG or anything else)
+ * No external links/references/etc.
 
 ## Naming guidelines
 
