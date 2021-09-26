@@ -7,6 +7,8 @@
 
 One of the main reasons for [VectorLogoZone](https://www.vectorlogo.zone/) is consistency: the logos should look great when they are all on the same page.  Please follow these guidelines when you make the images.
 
+If you aren't directly contributing but want to request a logo or report a bad logo, please use [Github Issues for VectorLogoZone/vectorlogozone](https://github.com/VectorLogoZone/vectorlogozone/issues/new/choose).
+
 ## General SVG Guidelines
 
 These guidelines apply to all images except the `-official` images.
