@@ -37,7 +37,7 @@ Required:
  * **Icon** (`-icon`) - a 64x64 with just the logo (i.e. no name) on a transparent (white) background, with no padding other than to make it square
  
 Optional:
- * **Tile** (`-tile`) - a 512x512 image with a simple logo on a colored background.  The guidelines (as well as many of the images) come from  [https://github.com/edent/supertinyicons](SuperTinyIcons), though 
+ * **Tile** (`-tile`) - a 512x512 image with a simple logo on a colored background.  The guidelines (as well as many of the images) come from  [SuperTinyIcons](https://github.com/edent/supertinyicons), though 
    I am more strict about a non-white background, and less strict about the 1K size limit.
  * **Image** (`-image`) - a 64 high image: the same as the icon, but resized so that it is 64 high with no padding
  * **Horizontal** (`-horizontal`) - 60 high, similar to the `-ar21`, but wider so really long names can be next to the logo
